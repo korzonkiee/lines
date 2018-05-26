@@ -1,0 +1,87 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#app {
+    width: 800px;
+    margin-top: 80px;
+    margin-left: 90px;
+    position: relative;
+}
+
+#app h1 {
+    color: #4CAF50;
+}
+
+#back {
+    text-align: left;
+    cursor: pointer;
+    margin-bottom: 24px;
+    font-weight: bold;
+    display: none;
+    width: 100px;
+}
+
+#table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#table th, #table td {
+    text-align: left;
+    border: 1px solid black;
+    padding: 8px;
+}
+
+#table tr:nth-child(even){background-color: #f2f2f2;}
+
+#table tr:hover {background-color: #ddd;}
+
+#table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.dataTables_filter {
+    margin: 24px 0;
+}
+
+.dataTables_info {
+    margin: 24px 0;
+}
+
+.paginate_button {
+    margin-right: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#upload h3 {
+    margin: 8px 0 16px 0;
+    padding: 0;
+}
+
+#upload-button {
+    margin-top: 16px;
+    outline: none;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px;
+    font-weight: bold;
+}
+
+#upload-button:hover {
+    background-color: #449d48;
+}

@@ -1,0 +1,14 @@
+#!/bin/sh
+
+start() {
+  cd /home/filebrowser
+  ./run.sh
+}
+
+case "$1" in
+  start)
+    start
+    ;;
+  *)
+    echo "Usage: $0 {start}"
+esac

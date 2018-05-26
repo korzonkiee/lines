@@ -1,0 +1,27 @@
+<html>
+
+<head>
+    <title>File browser</title>
+    <link rel="stylesheet" href="packages/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div id="app">
+        <table id="table"></table>
+        <div id="upload">
+            <h3>Upload files</h3>
+            <form id="upload-form" method="POST" enctype="multipart/form-data">
+                <input id="upload-input" type="file" name="file">
+                </br>
+                <input id="upload-button" type="submit" value="Upload" />
+            </form>
+        </div>
+    </div>
+
+    <script src="packages/jquery/dist/jquery.min.js"></script>
+    <script src="packages/datatables/media/js/jquery.dataTables.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
